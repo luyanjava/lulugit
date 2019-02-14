@@ -1,0 +1,148 @@
+.oct19-bread {
+  font-size: 14px;
+  height: 37px;
+  line-height: 37px;
+  margin-bottom: 1px;
+  background-image: url(../img/oct19-a.jpg);
+  background-repeat: repeat-x;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  padding-left: 19px;
+  color: #171717;
+}
+
+.oct19-bread strong {
+  font-weight: normal;
+  float: left;
+}
+
+.oct19-bread ul {
+  float: left;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.oct19-bread ul li {
+  float: left;
+}
+
+.oct19-bread ul li:after {
+  content: '/';
+}
+
+.oct19-bread ul li:last-child:after {
+  display: none;
+}
+
+.oct19-bread ul li a {
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none
+}
+
+#cols ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+#cols table{
+	width: 100%;
+}
+
+#cols tr {
+  margin-bottom: 2px;
+  height: 30px;
+  line-height: 30px;
+  background-image: url(../img/oct19-b.jpg);
+  background-repeat: repeat-x;
+  border: 1px solid #d1d9de;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: #171717;
+}
+
+#cols tr{
+	position: relative;
+}
+#cols tr td:first-child{
+	width: 100px;
+	text-align: center;
+}
+#cols tr td:last-child{
+	width: 250px;
+	text-align: center;
+}
+#col_tr td{
+	font-weight: bold;
+	text-align: center;
+}
+#cols div li a{
+	font-size:0;
+}
+#cols div li p{
+	position: absolute;
+	left: 10px;
+	text-align: left;
+	padding-right: 220px;
+}
+
+#cols a.oct19-delete {
+  display: inline-block;
+  width: 48px;
+  height: 18px;
+  line-height: 18px;
+  vertical-align: middle;
+  background-image: url(../img/oct19-c.png);
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  margin-left: 6px;
+}
+
+#cols a.oct19-bj  {
+  display: inline-block;
+  width: 72px;
+  height: 20px;
+  line-height: 18px;
+  vertical-align: middle;
+  background-image: url(../img/oct19-e.png);
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  margin-left: 6px;
+}
+
+#cols a.oct19-sc  {
+  display: inline-block;
+  width: 80px;
+  height: 20px;
+  line-height: 18px;
+  vertical-align: middle;
+  background-image: url(../img/oct19-f.png);
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  margin-left: 6px;
+}
+
+#cols div li.oct19-btnLine {
+  margin-top: 9px;
+  height: auto;
+  background: none;
+  padding-left: 0;
+  padding-right: 0;
+  border: none;
+}
+
+#cols div li a.common_btn_01 {
+  display: block;
+  width: 101px;
+  height: 32px;
+  background-image: url(../img/oct19-d.png);
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  margin-left: 0;
+}
+
+#cols div li a.common_btn_01:hover {
+  background-position: 0 0;
+}

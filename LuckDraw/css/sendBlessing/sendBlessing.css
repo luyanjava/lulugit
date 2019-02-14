@@ -1,0 +1,50 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,iframe{margin:0;padding:0;border:0;}
+body{background:#ffffff;color:#555;font:12px/1.5 \5b8b\4f53;font-family:"Microsoft YaHei,PingFang SC,Hiragino Sans GB,SimSun,sans-serif";}
+input{padding:0;margin: 0;border: none;}
+ul,ol,li{list-style-type:none;}
+select,input,img,select{vertical-align:middle;}
+input,textarea,select{font-family:\5b8b\4f53;font-size:inherit;font-weight:inherit;color: #555;}
+input,textarea,select{*font-size:100%;}
+li{list-style:none;}
+a { cursor:pointer; color: #555; text-decoration: none; outline:none; }
+a:hover { color: #2383c0; outline:none; }
+a:focus{ outline:none; }
+a img { border: 0; }
+em, i{ font-style:normal; }
+button{ outline:none; }
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1600px;height: 1121px;background: url("img/bg2.jpg") no-repeat ;position: relative;
+}
+/*.nameBox{*/
+    /*position: absolute;height: 154px;top: 249px;left: 330px;*/
+/*}*/
+.name{
+    width: 345px;height: 64px;position: absolute;left: 837px;top: 317px;font-size: 70px;
+}
+.dep{
+    width: 345px;height: 64px;position: absolute;left: 1310px;top: 327px;font-size: 50px;
+}
+.blessings{
+    width: 1305px;height: 550px;position: absolute;left: 214px;top: 439px;text-indent: 4rem;overflow: hidden;
+    line-height: 90px;font-size: 60px;
+}
+.zwf{
+    width: 499px;height: 249px;display: inline-block;float: left;
+}
+/*.blessings.more:after{*/
+    /*content: "...";*/
+    /*font-weight: bold;*/
+    /*position: absolute;*/
+    /*bottom: 5px;*/
+    /*right: 0;*/
+    /*font-size: 60px;*/
+    /*width: 65px;*/
+    /**/
+/*}*/
+.name,.dep,.blessings{
+    font-family: '华文行楷';color: #cd182e;letter-spacing: -5px;padding-left: 20px;
+    /*text-shadow: 0 10px 30px rgba(0,0,0,0.3);*/
+}

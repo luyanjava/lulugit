@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: none;
+}
+
+
+ul, li, dl, ol {
+	list-style: none;
+}
+
+.bcon{
+	color: white;
+	height: 100%;
+	text-align: center;
+}
+.bcon h1 {
+	padding: 20px 0 10px;
+}
+.bcon h2 {
+	padding: 0 10px;
+	padding-bottom: 30px;
+}
+
+.bcon h2 b {
+	font: bold 24px;
+	padding: 0 15px;
+}
+
+.list_lh {
+	max-width: 90%;
+	display: inline-block;
+	background: url(bg-wrap.png);
+	height: calc(100% - 240px);
+	border-radius: 8px;
+	font-size: 21px;
+	overflow: hidden;
+	padding: 30px;
+}
+.list_lh span{
+	display: inline-block
+}
+.list_lh .user-id{
+	width: 100px;
+}
+.list_lh .card-id{
+	width: 150px;
+}
+.list_lh .user-name{
+	width: 150px;
+}
+.list_lh .company-name{
+	width: auto;
+}
+.list_lh li {
+	padding: 10px;
+	text-align: left;
+}
+
+.list_lh li.lieven {
+}
+
+.list_lh li p {
+	height: 24px;
+	line-height: 24px;
+}
+
+.list_lh li p a {
+	float: left;
+}
+
+.list_lh li p em {
+	width: 80px;
+	font: normal 12px/24px Arial;
+	color: #FF3300;
+	float: right;
+	display: inline-block;
+}
+
+.list_lh li p span {
+	color: #999;
+	float: right;
+}
+
+.list_lh li p a.btn_lh {
+	background: #28BD19;
+	height: 17px;
+	line-height: 17px;
+	color: #fff;
+	padding: 0 5px;
+	margin-top: 4px;
+	display: inline-block;
+	float: right;
+}
+
+.btn_lh:hover {
+	color: #fff;
+	text-decoration: none;
+}

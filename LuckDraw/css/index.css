@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {margin:0;padding:0;list-style-type:none;}
+body {font-size:14px;}
+img {border:none;}
+a {color:#000;text-decoration:none;}
+a:hover {text-decoration:underline;}
+.red, .red a {color:#F00;}
+
+.leftC {width:96%;height:auto;overflow:hidden;padding:2%;}
+.leftC div.title {width:100%;height:78px;line-height:78px;border-bottom:1px solid #D7D7D7;background:url(../images/leftC_titlebg.gif) no-repeat 0 center;}
+.leftC div.title h4 {font-size:18px;font-weight:normal;font-family:"微软雅黑";color:#313131;margin-left:20px;}
+
+.leftC div.option {width:100%;height:35px;overflow:visible;margin-top:30px;}
+.leftC div.option ul {width:364px;height:35px;overflow:hidden;background:url(../images/optionUlbg.jpg) no-repeat;float:left;display:inline;position:relative;}
+.leftC div.option ul li {width:120px;height:35px;position:absolute;}
+.leftC div.option ul li.item1 {top:10px;left:35px;}
+.leftC div.option ul li.item2 {top:10px;left:158px;}
+.leftC div.option ul li.item3 {top:10px;left:276px;}
+.leftC div.option ul li a {font-family:"微软雅黑";}
+
+.leftC div.option div.oList {width:157px;height:35px;overflow:hidden;float:left;display:inline;margin-left:31px;}
+.leftC div.option div.oList select {width:155px;height:33px;border:1px solid #D7D7D7;font-family:"微软雅黑";}
+
+.leftC div.option div.oType {width:342px;height:35px;overflow:visible;line-height:35px;float:left;display:inline;margin-left:39px;font-family:"微软雅黑";}
+.leftC div.option div.oType span {font-size:14px;margin-right:18px;}
+.leftC div.option div.oType input {width:247px;height:32px;line-height:32px;border:1px solid #D7D7D7;font-family:"微软雅黑";padding-left:13px;}
+
+.leftC p.point {width:100%;height:70px;overflow:hidden;line-height:70px;padding-left:5px;color:#656565;font-size:14px;font-family:"微软雅黑";}
+
+.leftC ul.showList {width:100%; padding:10px 0;overflow:hidden;border:1px dashed #D3D3D3;}
+.leftC ul.showList li {line-height:40px;padding-left:33px;font-size:14px;font-family:"微软雅黑";}
+.leftC ul.showList li.item {}
+.leftC ul.showList li.itemNormal2 {height:45px;line-height:45px;}
+.leftC ul.showList li.itemSpec {background-color:#F9F9F9;}
+.leftC ul.showList li textarea.promptTitle {width:94%;height:88px;line-height:24px;border:1px solid #D7D7D7;font-family:"微软雅黑";padding-left:13px;margin-top:5px;}
+.leftC ul.showList li input.promptI {width:70%;height:32px;line-height:32px;border:1px solid #D7D7D7;font-family:"微软雅黑";padding-left:13px;margin-top:4px;margin-right:5%;float:left;}
+.leftC ul.showList li span.promptStf {height:34px;line-height:34px;font-family:"微软雅黑";padding-left:13px;margin-top:4px;margin-right:63%;float:left;display:inline;}
+.leftC ul.showList li label {float:left;}
+.leftC ul.showList li label span {margin-left:7px;}
+.leftC ul.showList li input {margin-right:5px;}
+
+.leftC div.choosebtn {width:100%;height:35px;overflow:hidden;margin-top:30px;position:relative;}
+.leftC div.choosebtn a {margin-right:16px;}
+.leftC div.choosebtn a.cList3 {margin-right:0;}
+.leftC div.choosebtn a.cList4 {margin-right:0;position:absolute;top:0;right:0;}
+
+.leftC .questiontool{
+	margin-top:15px;
+}
+.leftC .selecttit{
+	margin-right:10px;
+	margin-left:20px;
+}
