@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+.demos-header {
+    padding: 10px 0 5px;
+}
+.demos-title {
+    text-align: center;
+    font-size: 34px;
+    color: #3cc51f;
+    font-weight: 400;
+    margin: 0 15%;
+}
+.eidtBlessing .weui-cells .weui-label,.weui-cells{
+    font-size: 16px;
+}
+/*.weui-label span{*/
+    /*color: red;*/
+/*}*/
+.blessing{
+    margin-top: 0;
+}
+.blessing .weui-textarea{
+    height: 100px;
+}
+.btnBox{
+    width: 90%;margin: 20px auto;
+}
+body{
+    min-height: 98vh;
+    background: url('img/header.png') repeat-x 100%  top,
+    url('img/200.png') no-repeat  center bottom ,
+    url('img/footer.png') repeat-x 100%   bottom;
+    background-color: #D52C31;
+
+}
+.btnBox a,.btnBox input[type="button"]{
+    background-color: #E8E058; color: #D52C31;font-weight: 800;
+}
+.yellow,.weui-select,.weui-input,#blessing{
+    color: #FAE596 !important;
+}
+.weui-select option{
+    color: #272822 !important;
+}
+.weui-cells,#blessing{
+    background: none;
+}
+.weui-input::-webkit-input-placeholder ,.weui-textarea::-webkit-input-placeholder {
+    color:#B7A55D !important;font-size:15px;
+}
+.weui-input:-moz-placeholder ,.weui-textarea:-moz-placeholder {
+      color:#B7A55D;font-size:15px;
+}
+.weui-input::-moz-placeholder,.weui-textarea::-moz-placeholder  {
+   color:#B7A55D;font-size:15px;
+}
+.weui-input:-ms-input-placeholder ,.weui-textarea::-ms-input-placeholder {
+  color:#B7A55D;font-size:15px;
+}
